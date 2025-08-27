@@ -1,5 +1,5 @@
-🔐 Sensitive Credentials
-
+#🔐 Sensitive Credentials
+```
 .pem – Private keys (AWS, SSH, SSL)
 
 .key – Encryption keys
@@ -17,9 +17,9 @@
 .kdb, .kdbx – KeePass password databases
 
 .gpg – GPG encrypted files
-
+```
 🛠️ Config & Source Code
-
+```
 .env – Environment variables (DB passwords, API keys)
 
 .json – API configs / credentials
@@ -35,9 +35,9 @@
 .java, .cs, .cpp – Source code
 
 .git, .svn – Version control leftovers
-
+```
 📊 Databases & Dumps
-
+```
 .sql – Database dumps
 
 .db, .sqlite – SQLite databases
@@ -51,17 +51,17 @@
 .xml – Sometimes full DB/XML exports
 
 .csv – User data exports
-
+```
 📁 Archives & Backups
-
+```
 .zip, .tar, .gz, .tgz, .rar, .7z – Compressed archives
 
 .bak, .old, .backup – Backups
 
 .swp, .swo – Editor swap files (may leak code)
-
+```
 📑 Office & Docs
-
+```
 .doc, .docx – Word documents
 
 .xls, .xlsx, .xlsm – Excel spreadsheets
@@ -71,9 +71,9 @@
 .pdf – Reports, contracts
 
 .txt, .log – Logs / plaintext credentials
-
+```
 🎛️ Infrastructure
-
+```
 .ps1, .bat, .sh – Scripts
 
 .dockerfile, docker-compose.yml – Docker configs
@@ -83,3 +83,4 @@
 .tf – Terraform configs (infra secrets)
 
 .cfg – Network device configs
+```
